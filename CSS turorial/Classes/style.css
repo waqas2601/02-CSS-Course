@@ -1,0 +1,22 @@
+.my-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.my-ul,
+.my-ul-2,
+.linewClass {
+  background-color: red;
+  padding: 20px;
+}
+.nmbr2newClass {
+  color: green;
+  font-weight: 700;
+}
+
+.someNewClass {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}

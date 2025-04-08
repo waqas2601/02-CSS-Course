@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  animation: myAnimation 2s ease-in-out 1s forwards;
+}
+
+@keyframes myAnimation {
+  from {
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
+    background-color: white;
+  }
+  to {
+    font-size: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+  }
+}

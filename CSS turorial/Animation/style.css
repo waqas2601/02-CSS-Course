@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.myClass {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: 10px 0px;
+  animation-name: myAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.myNewClass {
+  animation-name: myNewAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.myVeryNewClass {
+  animation-name: myVeryNewClass;
+  animation-duration: 2s;
+}
+@keyframes myAnimation {
+  from {
+    width: 0px;
+    height: 0px;
+  }
+  to {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@keyframes myNewAnimation {
+  0% {
+    background-color: black;
+    width: 0px;
+    height: 0px;
+  }
+  100% {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@keyframes myVeryNewClass {
+  0% {
+    height: 0;
+    width: 0;
+  }
+
+  10% {
+    background-color: black;
+  }
+  40% {
+    background-color: blue;
+  }
+
+  80% {
+    background-color: green;
+  }
+  100% {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+  }
+}

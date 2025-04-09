@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+}
+
+#Main {
+  background-color: #ffcd59;
+}
+
+#Blog {
+  background-color: #ffcd59;
+}
+
+.Highlight {
+  color: #7f4cf6;
+}
+
+.color {
+  color: #7f4cf6;
+}
+
+p {
+  text-align: justify;
+}
+
+header {
+  background-color: #f0ebeb;
+}
+
+section.my-articles {
+  background-color: #f2e9e9;
+}
+
+section.my-articles > h2 {
+  background-color: #5efcea;
+}
+
+h2 + p {
+  background-color: #fc5eaa;
+}
+
+header p {
+  color: green;
+}
+
+li a {
+  color: crimson;
+}
+
+main > h2 {
+  color: darkblue;
+}
+
+article > h2 {
+  background-color: darkcyan;
+}

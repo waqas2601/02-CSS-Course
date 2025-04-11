@@ -1,0 +1,24 @@
+#heading {
+  background-color: #0fb5;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.h3 {
+  border: 2px solid rgba(26, 27, 26, 0.333);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family: sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+}

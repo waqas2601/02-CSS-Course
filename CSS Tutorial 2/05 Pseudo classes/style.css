@@ -1,0 +1,30 @@
+a {
+  display: block;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: brown;
+}
+
+p:first-child {
+  color: green;
+}
+
+p:nth-child(3) {
+  color: blue;
+}
+
+p::first-letter {
+  font-size: 30px;
+}

@@ -1,0 +1,36 @@
+input[type="text"] {
+  background-color: darkkhaki;
+}
+
+input[type="password"] {
+  background-color: limegreen;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+button {
+  background-color: darkkhaki;
+}
+
+div li {
+  color: green;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+#main {
+  border: 4px ridge yellow;
+  height: auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+span {
+  border: 2px dashed grey;
+}

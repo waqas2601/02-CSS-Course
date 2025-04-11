@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px 25px;
+  text-align: justify;
+}
+
+nav {
+  border: 2px solid rgb(210, 196, 196);
+  background-color: #d6c8c8b7;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 1px 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #444;
+}
+
+ul {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+
+section {
+  margin-top: 50px;
+}
+h2 {
+  border-bottom: 1px solid #444;
+}
+
+p {
+  word-spacing: 2px;
+}

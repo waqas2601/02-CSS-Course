@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100vw;
+  background-color: pink;
+}
+.outer-div {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  padding: 10px;
+}
+
+.inner-div {
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+}
+
+p:last-of-type {
+  border: 2rem solid yellowgreen;
+  /* 1rem=10px */
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.box1 {
+  font-size: 20px;
+  background-color: aqua;
+  width: 50%;
+}
+
+h1 {
+  border: 2px solid black;
+  width: 50vw;
+}
+
+h2 {
+  border: 2px solid red;
+  width: 70vw;
+}

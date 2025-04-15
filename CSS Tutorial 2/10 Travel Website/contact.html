@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travel Website|Welcome</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <div class="container">
+        <h1 class="logo lg-heading text-chocolate">
+          WORLD <span>TRAVEL</span>
+        </h1>
+        <ul class="nav-items">
+          <li class="navitem"><a href="./index.html">Home</a></li>
+          <li class="navitem"><a href="./about.html">About</a></li>
+          <li class="navitem"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="parent">
+      <div class="child-1" style="width: 100%">
+        <div class="three-child-parent">
+          <div>
+            <div class="child">
+              <i class="fa-solid fa-location-dot text-red"></i>
+              <span>Location</span>
+            </div>
+            <p>
+              123 Wanderlust Avenue, Travel City, Explore State 45678, (123)
+              456-7890
+            </p>
+          </div>
+          <div>
+            <div class="child">
+              <i class="fa-solid fa-square-envelope text-red"></i>
+              <span>Email</span>
+            </div>
+            <p>travelbuddy@example.com</p>
+          </div>
+          <div>
+            <div class="child">
+              <i class="fa-solid fa-phone text-red"></i>
+              <span>Call</span>
+            </div>
+            <p>+1 (555) 123-4567</p>
+          </div>
+        </div>
+        <div style="width: 100%">
+          <img style="width: 100%" src="./img/company-img2.jpg" alt="Company" />
+        </div>
+      </div>
+      <div class="child-2">
+        <span class="contact">Contact Us</span>
+
+        <div class="four-child-parent">
+          <p>
+            Have questions or ready to start your journey? Drop us your info
+            below!
+          </p>
+        </div>
+        <form class="form" action="#" method="post">
+          <label class="text" for="username"
+            >Username<span class="required">*</span></label
+          ><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+          /><br /><br />
+
+          <label class="text" for="email"
+            >Email<span class="required">*</span></label
+          ><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label class="text" for="phone"
+            >Phone<span class="required">*</span></label
+          ><br />
+          <input type="tel" id="phone" name="phone" required /><br /><br />
+
+          <label class="text" for="message"
+            >Message<span class="required">*</span></label
+          ><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="8"
+            cols="50"
+            required
+          ></textarea
+          ><br /><br />
+          <div class="butn">
+            <input id="button" type="submit" value="SUBMIT" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

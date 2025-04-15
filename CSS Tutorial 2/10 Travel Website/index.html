@@ -3,18 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Website</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
       rel="stylesheet"
     />
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="navbar">
         <div class="container">
-          <h1 class="logo lg-heading text-sandy">WORLD TRAVEL</h1>
+          <h1 class="logo lg-heading text-chocolate">
+            WORLD <span>TRAVEL</span>
+          </h1>
           <ul class="nav-items">
             <li class="navitem"><a href="./index.html">Home</a></li>
             <li class="navitem"><a href="./about.html">About</a></li>
@@ -24,18 +33,99 @@
       </nav>
 
       <div class="header-content">
-        <h2 class="lg-heading text-mint">Travel The World</h2>
-        <p class="text-mint">
+        <h2 class="lg-heading text-blue">Travel The World</h2>
+        <p class="text-sandy">
           Traveling the world opens your eyes to new cultures, breathtaking
           landscapes, and unforgettable experiences. It teaches you to
           appreciate diversity, step out of your comfort zone, and create
           memories that last a lifetime. Every place has a story — and exploring
           it adds a new chapter to your own.
         </p>
-        <a href="#" class="btn btn-primary text-chocolate md-heading">
+        <a
+          href="#explore-places"
+          class="btn btn-primary text-chocolate md-heading"
+        >
           Explore Places</a
         >
       </div>
     </header>
+    <section class="showcase" id="explore-places">
+      <div class="containers">
+        <div class="row row1">
+          <div class="img-box">
+            <img src="./img/imgbox1.jpg" alt="Travel" />
+          </div>
+          <div class="text-box">
+            <h2 class="lg-heading text-chocolate">
+              Santorini: The Jewel of the Aegean Sea
+            </h2>
+            <p class="text">
+              Santorini, Greece, is famous for its stunning sunsets, whitewashed
+              houses, and crystal-clear blue waters. Perched on volcanic cliffs,
+              this island offers a magical blend of history, beauty, and ocean
+              views that feels heaven.
+            </p>
+            <a href="./about.html" class="btn btn-secondary">More</a>
+          </div>
+        </div>
+        <div class="row row2">
+          <div class="img-box">
+            <img src="./img/imgbox2.jpg" alt="Travel" />
+          </div>
+          <div class="text-box">
+            <h2 class="lg-heading text-chocolate">
+              Maldives: A Slice of Ocean Paradise
+            </h2>
+            <p class="text">
+              The Maldives is a tropical haven of turquoise waters, white sandy
+              beaches, and vibrant coral reefs. Perfect for diving, relaxing,
+              and soaking in the serenity of the Indian Ocean, it's a dream
+              destination for ocean lovers.
+            </p>
+            <a href="./about.html" class="btn btn-secondary">More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="box-wrapper">
+          <div class="box box1">
+            <i class="fas fa-globe fa-2x text-red"></i>
+            <h2 class="md-heading">Explore New Cultures</h2>
+            <p>
+              Step into different worlds, taste unique cuisines, and connect
+              with people from every corner of the globe.
+            </p>
+          </div>
+          <div class="box box2">
+            <i class="fa fa-plane-departure fa-2x text-blue"></i>
+            <h2 class="md-heading">Adventure Beyond Borders</h2>
+            <p>
+              From mountains to oceans, discover breathtaking landscapes and
+              thrilling experiences that go beyond your comfort zone.
+            </p>
+          </div>
+          <div class="box box3">
+            <i class="fa fa-camera-retro fa-2x text-red"></i>
+            <h2 class="md-heading">Create Unforgettable Memories</h2>
+            <p>
+              Capture moments that stay with you forever,because every journey
+              tells a story worth remembering.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="social-media-links">
+        <i class="fab fa-facebook fa-3x"> </i>
+        <i class="fab fa-twitter fa-3x"> </i>
+        <i class="fab fa-instagram fa-3x"> </i>
+      </div>
+      <p>World Travel &copy;2025 All Rights Reserved</p>
+    </footer>
   </body>
 </html>

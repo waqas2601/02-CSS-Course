@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Resturant Website</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <input type="checkbox" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#showcase">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#food">Category</a></li>
+          <li><a href="#food-menu">Menu</a></li>
+          <li><a href="#testimonials">Testimonial</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h1 class="logo">W<span id="logo">i</span>Q</h1>
+      </div>
+    </nav>
+
+    <section class="showcase-area" id="showcase">
+      <div class="showcase-container">
+        <h1 class="main-title">Savor Every Bite</h1>
+        <p>
+          Delicious food, cozy vibes, and unforgettable flavors—all in one
+          place.
+        </p>
+        <a href="#food-menu" class="btn btn-primary">Menu</a>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h2>Bringing Flavor to Every Moment</h2>
+          <p>
+            At [WiQ], we believe food is more than just a meal — it's an
+            experience. From our carefully crafted recipes to our warm
+            hospitality, every detail is made to satisfy your cravings and
+            comfort your soul. Whether you're dining in or ordering out, we’re
+            here to serve you with passion, freshness, and a whole lot of
+            flavor.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="./img/about-img.jpg" alt="About Us" />
+        </div>
+      </div>
+    </section>
+
+    <section id="food">
+      <h2>Our Culinary Selection</h2>
+      <div class="food-container container">
+        <div class="food-type food">
+          <div class="img-container">
+            <img src="./img/burger-img.jpg" alt="Burger" />
+            <div class="img-content">
+              <h3>Beef Burger</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Category:Burger_varieties"
+                class="btn btn-primary"
+                target="_blank"
+                >Varities</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-type vegetable">
+          <div class="img-container">
+            <img src="./img/pizza-img.jpg" alt="Pizza" />
+            <div class="img-content">
+              <h3>Margherita Pizza</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Category:Pizza_varieties"
+                class="btn btn-primary"
+                target="_blank"
+                >Varities</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-type grain">
+          <div class="img-container">
+            <img src="./img/pasta-img.jpg" alt="Pasta" />
+            <div class="img-content">
+              <h3>Alfredo Pasta</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Category:Types_of_pasta"
+                class="btn btn-primary"
+                target="_blank"
+                >Varities</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="food-menu">
+      <h2 class="food-menu-heading">Culinary Collection</h2>
+      <div class="food-menu-container container">
+        <div class="food-menu-item">
+          <div class="food-image">
+            <img src="./img/biryani-img.jpg" alt="Biryani" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Culinary Collection 1</h2>
+            <p>
+              Aromatic, Spicy, and Full of Flavor – Every Spoon Tells a Story.
+            </p>
+            <p class="food-price">Price: &#8377; 350</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-image">
+            <img src="./img/chicken-img.jpg" alt="Chicken" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Culinary Collection 2</h2>
+            <p>
+              Juicy, smoky, and perfectly seasoned — our Grilled Chicken is
+              flame-kissed to perfection for a mouthwatering experience you
+              won’t forget.
+            </p>
+            <p class="food-price">Price: &#8377; 700</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-image">
+            <img src="./img/sushi-img.jpg" alt="Sushi" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Culinary Collection 3</h2>
+            <p>
+              Delicate, fresh, and artfully crafted — our Sushi rolls are a true
+              celebration of Japanese flavor and finesse.
+            </p>
+            <p class="food-price">Price: &#8377; 850</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-image">
+            <img src="./img/salad-img.jpg" alt="Salad" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Culinary Collection 4</h2>
+            <p>Fresh, Crisp, and Delicious – Your Perfect Salad Awaits!</p>
+            <p class="food-price">Price: &#8377; 200</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-image">
+            <img src="./img/kheer-img.jpg" alt="Kheer" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Culinary Collection 5</h2>
+            <p>
+              Indulge in the Creamy Delight of Traditional Kheer – A Sweet
+              Journey in Every Spoon!
+            </p>
+            <p class="food-price">Price: &#8377; 150</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-image">
+            <img src="./img/cake-img.jpg" alt="Cake" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Culinary Collection 6</h2>
+            <p>
+              Slice into Happiness – Our Cakes are a Sweet Celebration in Every
+              Bite!
+            </p>
+            <p class="food-price">Price: &#8377; 100</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2 class="testimonial-title">Hear from Our Happy Diners</h2>
+      <div class="testimonial-container container">
+        <div class="testimonial-box">
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            Absolutely delicious! The flavors were spot on, and the presentation
+            was gorgeous. The ambiance made the whole dining experience even
+            better. Definitely coming back for more!
+          </p>
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./img/man-img.png" alt="Customer" />
+            </div>
+            <p class="customer-name">Yaseen</p>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            Every dish we tried was outstanding. From the fresh salads to the
+            mouthwatering desserts, each bite was a delight. The service was
+            top-notch as well. Highly recommend!
+          </p>
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./img/man-img.png" alt="Customer" />
+            </div>
+            <p class="customer-name">Waqas</p>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            A true hidden gem! The food was rich in flavor, and the portions
+            were generous. I’ve never had such a satisfying meal. A must-visit
+            for food lovers!
+          </p>
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./img/man-img.png" alt="Customer" />
+            </div>
+            <p class="customer-name">Humayun</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-container container">
+        <div class="contact-img">
+          <img src="./img/resturant-img.jpg" alt="Resturant" />
+        </div>
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <input type="text" placeholder="Name" />
+          <input type="number" placeholder="Phone" />
+          <textarea
+            name="message"
+            id=""
+            placeholder="Type Your Message Here"
+            style="height: 175px; width: 100%"
+          ></textarea>
+          <a href="#" class="btn btn-primary">Submit</a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <h2>Resturant Website &copy; all rights reserved</h2>
+    </footer>
+
+    <!-- ############## for smooth scrolling ############### -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </body>
+</html>

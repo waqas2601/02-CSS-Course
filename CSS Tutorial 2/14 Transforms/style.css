@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full height of the viewport */
+  margin: 0;
+}
+
+.box {
+  background-color: chartreuse;
+  width: 100px;
+  height: 100px;
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+  transition: transform 3s ease-in-out;
+  /* transform: rotate(20deg); */
+  text-align: center;
+  /* transform: translate(-500px); */
+  transform-origin: 0% 100%;
+}
+
+.box:hover {
+  transform: rotate(90deg);
+  /* width: 500px; */
+  /* transform: scale(5); */
+  /* transform: skew(180deg); */
+}

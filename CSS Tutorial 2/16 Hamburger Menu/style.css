@@ -1,0 +1,100 @@
+* {
+  /* padding: 0%;
+  margin: 0%; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ########## Style Menu ###############  */
+
+li {
+  list-style: none;
+}
+
+.hamburger-menu {
+  /* border: 2px solid red; */
+  position: relative;
+}
+
+.hamburger-menu input[type="checkbox"] {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 40px;
+  height: 32px;
+  z-index: 3;
+  opacity: 0;
+}
+
+.hamburger-lines {
+  width: 40px;
+  height: 32px;
+  /* background-color: lightgreen; */
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: #232323;
+  border-radius: 10px;
+}
+
+.menu-items {
+  /* display: none; */
+  padding-top: 70px;
+  transform: translateX(-110%);
+  transition: transform 0.4s ease-in-out;
+  padding-left: 18x;
+  background: #4a6d7c;
+  color: #dbd2e0;
+  max-width: 400px;
+  width: 90%;
+}
+
+.menu-items li {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.hamburger-menu input[type="checkbox"]:checked ~ .menu-items {
+  /* display: block; */
+  transform: translateX(0%);
+}
+
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line {
+  background: #fff;
+}
+
+.hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  display: none;
+}
+
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}

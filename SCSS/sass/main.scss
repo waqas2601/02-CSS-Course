@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+$bg-color: #c5f5;
+
+@mixin flexprob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+// ############ Utility ##############
+
+.main-header {
+  width: 100vw;
+  height: 100vh;
+  @include flexprob;
+  background-color: $bg-color;
+
+  h1 {
+    color: red;
+    font-size: 3rem;
+    &:hover {
+      color: #f2f2f2;
+    }
+  }
+
+  p {
+    color: red;
+    font-size: 3rem;
+    &:hover {
+      color: #f2f2f2;
+    }
+  }
+}
